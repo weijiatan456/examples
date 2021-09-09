@@ -3,5 +3,11 @@
 exports.keys = 'my keys';
 
 exports.view = {
-  defaultViewEngine: 'nunjucks',
+    defaultViewEngine: 'nunjucks',
+};
+
+exports.multipart = {
+    whitelist: [
+      '.png',
+    ]
 };

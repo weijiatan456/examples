@@ -3,11 +3,11 @@
 const Controller = require('egg').Controller;
 
 class HomeController extends Controller {
-  async render() {
-    const ctx = this.ctx;
+    async render() {
+        const ctx = this.ctx;
 
-    ctx.body = 'Hello World';
-  }
+        ctx.body = 'Hello World';
+    }
 }
 
 module.exports = HomeController;

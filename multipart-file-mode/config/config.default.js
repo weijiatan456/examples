@@ -3,9 +3,10 @@
 exports.keys = 'my keys';
 
 exports.view = {
-  defaultViewEngine: 'nunjucks',
+    defaultViewEngine: 'nunjucks',
 };
 
+// 参考https://github.com/eggjs/egg-multipart
 exports.multipart = {
-  mode: 'file',
+    mode: 'file',
 };
